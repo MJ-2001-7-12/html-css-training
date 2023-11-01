@@ -28,7 +28,7 @@
   .b {
     background-color: #17C1A3; 
     color: white; 
-    border-radius: 8%;
+    border-radius: 5%;
     text-align: center;
     padding:20px;
     font-size: 18px;
@@ -65,6 +65,114 @@
     margin-bottom:20px;
 }
 
+.depart, .special{
+    display:flex;
+    padding:20px;
+    margin:50px;
+}
+.da, .db ,.dc, .sp1, .sp2, .sp3{
+    flex:1;
+    margin:10px;
+}
+.special img{
+    width:300px;
+}
+
+.hospital{
+    display:flex;
+    padding:20px;
+    margin:20px;
+}
+.hosp1,.hosp2,.hosp3{
+    flex:1;
+    margin:10px;
+}
+.hospital img, .in img{
+    width:450px;
+}
+.depart img{
+    width:436px;
+}
+.depart a, .in a{
+    color:#17C1A3;
+}
+.mask{
+    margin: 80px;
+}
+.docs{
+    text-align: center;
+}
+.docs p{
+    color: grey;
+}
+.facs {
+    text-align: center;
+}
+.in{
+    display:flex;
+    padding:20px;
+    margin:20px;
+}
+.in1,.in2,.in3{
+    flex:1;
+    margin:10px;
+}
+.in p{
+    text-align: left;
+}
+
+#why {
+    background-color: rgb(218, 233, 246);
+    display: flex;
+    margin-top: 100px;
+    width: 1300px;
+    margin-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+  
+  #why-img {
+    margin-left: 50px;
+  }
+  .gc {
+    display: block;
+    padding-bottom: 50px;
+    margin-left: 50px;
+  }
+  #why-ul {
+    margin-top: -400px;
+    padding-bottom: -400px;
+    margin-left: 50px;
+    
+  }
+  .why-li {
+    margin-top: 50px;
+    list-style: none;
+  }
+  .news{
+    background-color: white;
+    display: flex;
+    margin-top: 100px;
+    width: 1400px;
+    margin-left: 60px;
+    
+  }
+  .n2{
+    display: flex;
+  }
+  .n1, .n2{
+    flex:1;
+    padding: 40px;
+  }
+  #n2a, #n2b{
+    flex:1;
+  }
+  .bg{
+    margin-top: 10px;
+    background-color: #EAF2FF;
+    padding-bottom: 100px;
+  }
+
 /*
 
 .home img{
@@ -84,7 +192,8 @@
 .home1{
     flex:1;
     padding-right: 10px;
-}
+}*/
+/*
 .home2{
     flex:2;
     padding: 10px;

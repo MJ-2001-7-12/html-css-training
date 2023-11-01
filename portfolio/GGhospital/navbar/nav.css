@@ -1,4 +1,4 @@
-header{
+/*header{
     position: relative;
     padding-top: 20px;
     padding-left: 20px;
@@ -6,10 +6,7 @@ header{
     justify-content: space-between;
     
 }
-header img{
-    margin-left: 80px;
-    width:70%;
-}
+
 .h{
     display: flex;
     
@@ -22,17 +19,51 @@ header img{
     margin-top: 25px;
     
 }
-header .navbar a{
-    color:black;
+a.active{
+    color:red;
+}
+.navbar a{
     padding:10px;
     font-size: 22px;
     cursor:pointer;
     text-decoration: none;
+    color: black;
 }
 
 header .navbar a:hover{
     color:red;
+}*/
+header img{
+    margin-left: 80px;
+    width:70%;
 }
-header .navbar a.active{
-    color:red;
+
+.nav-container {
+    overflow:hidden;
+    background-color: #ffff;
 }
+.navbar{
+    display: flex;
+}
+.topnav{
+    margin-left: 10%;
+}
+.topnav a{
+    float:left;
+    color: black;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover{
+    color: red;
+}
+a.active{
+    color: red;
+}
+.image{
+    position: relative;
+    text-align: center;
+}
+
