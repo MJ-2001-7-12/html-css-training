@@ -1,0 +1,218 @@
+header{
+    position: relative;
+    padding: 30px;
+    background-color:#3B5998;
+    display: flex;
+    width:100%;
+    flex:1;
+    justify-content: space-between;
+}
+.inner li{
+    font-size: larger;
+}
+header .navbar a{
+    color:black;
+    padding:10px;
+    text-align:right;
+    font-size: 20px;
+    cursor:pointer;
+    margin-right:30px;
+    text-decoration: none;
+}
+header .navbar a:hover, a.active{
+    color:white;
+}
+
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.home img{
+    border-radius:50%;
+}
+.home p{
+    font-style: italic;
+    color:black ;
+    text-shadow: 2px 2px 5px white;
+}
+.home{
+    display:flex;
+}
+.home img{
+    padding:120px;
+}
+.home1{
+    flex:1;
+    padding-right: 10px;
+    background-image:url('https://media.istockphoto.com/id/1442984386/photo/blue-check-mark-logos-on-a-heap-on-a-table-copy-space-verification-concept.jpg?s=612x612&w=0&k=20&c=ulV1dM-0JSpSksupeNRrKBz6Yy2Al5R7TSogD16O-nU=');
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+.home2{
+    flex:2;
+    padding: 10px;
+    margin-left:20px;
+}
+header h2{
+    color: black;
+    font-size: 30px;
+}
+.home2 p{
+    font-size:18px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: black;
+    font-size: 18px;
+}
+
+footer p{
+    color:white;
+}  
+footer a{
+    color:white;
+} 
+footer a:hover{
+    color:blue;
+}  
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  float: right;
+  margin-left: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #a41c99;
+  color: white;
+}
+.skill{
+    background-image: url('https://media.istockphoto.com/id/1393379238/photo/work-performance-is-influenced-by-skills-abilities-and-competence-the-concept-of-the.jpg?s=612x612&w=0&k=20&c=JmF3ow_Nn1jLVsjVWSmrCgBpJhJ3FnxX2rVIxWlO68Q=');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px 250px;
+    margin-right:80px;
+    padding:100px;
+    font-size: larger;
+
+}
+.pro{
+    display:flex;
+}
+.pro .inner{
+    flex:1;
+    font-size: 15px;
+    text-align: left;
+}
+.pro .imgpro{
+    flex:1;
+    float:end;
+}
+.ut{
+    display:flex;
+}
+.ab{
+    flex:1;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: solid;
+}
+/*#s{
+    margin-bottom:200px;
+}*/
+.ab img{
+    flex:2;
+    float:right;
+}
+table,th,td{
+    border:2px solid rgb(66, 129, 180);
+    align-items: center;
+    border-radius: 20px;
+}
+table{
+    text-align: center;
+    border:3px solid rgb(33, 136, 191);
+    margin-bottom:200px;
+}
+tr:nth-child(even) {
+    background-color: #87e3ff;
+    border-radius: 20px;
+  }
+
+
+  .cards{
+    display:flex;
+    padding:50px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin:50px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:50px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+ 
+  

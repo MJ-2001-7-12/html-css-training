@@ -1,0 +1,39 @@
+ .start {
+    color: red;
+    text-align: center;
+  }
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+  .h-container {
+    color:white;
+    text-align: center;
+  }
+ 
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin:10px;
+    border-radius: 5px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    
+  }
+  unordered{
+    border-radius: 5px; 
+  }
+  

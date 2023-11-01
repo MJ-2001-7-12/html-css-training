@@ -1,0 +1,36 @@
+header{
+    position: relative;
+    padding: 30px;
+    background-color:white;
+    justify-content: space-between;
+    
+}
+header img{
+    margin-left: 40px;
+}
+.h{
+    display: flex;
+    
+}
+.inn{
+    flex:1;
+}
+.navbar{
+    flex:2;
+    
+}
+header .navbar a{
+    color:black;
+    padding:10px;
+    text-align:end;
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+header .navbar a:hover{
+    color:red;
+}
+header .navbar a.active{
+    color:red;
+}
