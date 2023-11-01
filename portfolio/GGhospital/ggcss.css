@@ -6,31 +6,38 @@
 
 .both {
     position: relative;
-    text-align: center;
+    text-align:left;
+  }
+  .both img{
+    margin:30px;
+    margin-left: 70px;
   }
   
   .text {
     position: absolute;
-    bottom: 400px;
-    left: 80px;
+    bottom: 300px;
+    left: 150px;
   }
 
   .text h1{
-    font-size: 80px;
+    font-size: 60px;
+  }
+  .text p{
+    font-size: 20px;
   }
   .b {
-    background-color: rgb(103, 235, 193); 
-    color: black; 
-    border: solid white;
-    border-radius: 10%;
+    background-color: #17C1A3; 
+    color: white; 
+    border-radius: 8%;
     text-align: center;
     padding:20px;
     font-size: 18px;
     cursor: pointer;
+    border:0px;
   }
   
   .b:hover {
-    background-color: rgb(35, 142, 130);
+    background-color:rgb(24, 160, 97) ;
     color: white;
   }
 
@@ -41,6 +48,7 @@
     bottom: 1px;
     left: 200px;
     border-radius:8px;
+    box-shadow: 1px 1px 1px 0px #888888;
 }
 
 .sec1 , .sec2{

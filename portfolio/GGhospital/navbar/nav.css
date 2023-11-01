@@ -1,12 +1,14 @@
 header{
     position: relative;
-    padding: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
     background-color:white;
     justify-content: space-between;
     
 }
 header img{
-    margin-left: 40px;
+    margin-left: 80px;
+    width:70%;
 }
 .h{
     display: flex;
@@ -16,14 +18,14 @@ header img{
     flex:1;
 }
 .navbar{
-    flex:2;
+    flex:4;
+    margin-top: 25px;
     
 }
 header .navbar a{
     color:black;
     padding:10px;
-    text-align:end;
-    font-size: 25px;
+    font-size: 22px;
     cursor:pointer;
     text-decoration: none;
 }
