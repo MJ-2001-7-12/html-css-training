@@ -3,7 +3,10 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+#top{
+    margin-left: 70px;
+    margin-right: 75px;
+}
 .both {
     position: relative;
     text-align:left;
